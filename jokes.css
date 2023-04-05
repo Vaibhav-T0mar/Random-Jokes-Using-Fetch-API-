@@ -1,0 +1,66 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+h1{
+    padding-top:10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.main{
+    position: absolute;
+    border: 2px solid red;
+    left: 14%;
+    right: 10%;
+    top: 10%;
+    height: 70vh;
+    width: 70vw;
+    background-color: palevioletred;
+
+
+}
+
+.text{
+     display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    text-justify: center;
+    color: aqua;
+    text-transform: uppercase;
+    padding-top: 200px;
+    
+}
+.p{
+    text-transform: uppercase;
+}
+.click{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+button{
+    position: absolute;
+    top: 300px;
+    height: 100px;
+    width: 500px;
+    font-weight: bolder;
+    font-size: 50px;
+    text-transform: capitalize;
+    color: aqua;
+    background-color: cadetblue;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px black;
+}
+
+
